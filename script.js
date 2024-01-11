@@ -40,7 +40,7 @@ function calAmount() {
     var currency = {
       "USD": 83.2,
       "SGD": 62.38,
-      "EUR": 90.89
+      "EUR": 90.89,
     };
   
     // Check if the selected currency is in the currency object

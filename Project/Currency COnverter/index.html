@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currency Converter</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="box_title">
+                <h1>Currency Converter</h1>
+            </div>
+
+            <form action="">
+
+                <select name="selection" id="selection">
+                    <option value="Select the currency">Select the currency</option>
+                    <option value="USD">USD</option>
+                    <option value="SGD">SGD</option>
+                    <option value="EUR">EUR</option>
+                    <!-- <option value="PKR">PKr</option> -->
+                </select>
+
+                <div class="field_box">
+                    <input type="text" class="form_input" id="Rupee" value="" autocomplete="off" required>
+                    <label for="" class="form_label">Enter Amount </label>
+                </div>
+
+               
+                <br>
+
+                <div class="amount">
+                    <label for="" class="amount_label">Amount in IndianRupee :</label>
+                    <input type="text" class="amount_display" id="Amount" autocomplete="off" readonly>
+                </div>
+
+                <div class="convert_button">
+                    <button type="button" onclick="calAmount()">Convert</button>
+                </div>
+
+            </form>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
